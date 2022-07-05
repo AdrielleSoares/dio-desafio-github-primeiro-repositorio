@@ -1,5 +1,8 @@
 body {
     background: #F7F7F7;
+    font-family: Verdana;
+    width: 900px;
+    margin: auto;
 }
 
 .photo {
@@ -11,7 +14,7 @@ body {
 }
 
 #title,  subtitle,  post_title {
-    color: blue;
+    color: black;
 }
 
 .post_title {
@@ -32,8 +35,15 @@ body {
 .post_content {
     margin: 0;
     margin-bottom: 15px;
+    text-decoration: capitalize;
 }
 .post_image {
     margin-bottom: 15px;
+    width: 100%;
+}
+
+.contacts_list {
+    list-style-type: none;
+    
 }
 
