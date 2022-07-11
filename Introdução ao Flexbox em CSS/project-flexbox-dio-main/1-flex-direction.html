@@ -2,17 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundamentos - Flex Direction</title>
+    <title>Fundamentos - Flex direction</title>
+
     <style>
-        .flex-container {
+        .flex-container{
             margin: 0;
             padding: 0;
             display: flex;
             list-style: none;
         }
-        .flex-item {
+
+        .flex-item{
             background: blue;
             height: 50px;
             width: 50px;
@@ -22,44 +23,46 @@
             text-align: center;
             margin: 5px;
         }
-        . row {
+
+        .row{
             flex-direction: row;
         }
 
-        .row-reverse {
+        .row-reverse{
             flex-direction: row-reverse;
         }
-        .row-reverse li {
+
+        .row-reverse li{
             background-color: red;
         }
 
-        .column {
+        .column{
             float: left;
             flex-direction: column;
-
         }
-        .column li {
+
+        .column li{
             background: orange;
         }
 
-        .column-reverse {
+        .column-reverse{
             float: right;
             flex-direction: column-reverse;
         }
 
-        .column-reverse li {
-            background: blueviolet;
+        .column-reverse li{
+            background: purple;
         }
+
     </style>
 </head>
 <body>
-    <ul class="flex-container">
+    <ul class="flex-container row">
         <li class="flex-item">1</li>
         <li class="flex-item">2</li>
         <li class="flex-item">3</li>
         <li class="flex-item">4</li>
         <li class="flex-item">5</li>
-
     </ul>
 
     <ul class="flex-container row-reverse">
@@ -68,7 +71,6 @@
         <li class="flex-item">3</li>
         <li class="flex-item">4</li>
         <li class="flex-item">5</li>
-
     </ul>
 
     <ul class="flex-container column">
@@ -77,7 +79,6 @@
         <li class="flex-item">3</li>
         <li class="flex-item">4</li>
         <li class="flex-item">5</li>
-
     </ul>
 
     <ul class="flex-container column-reverse">
@@ -86,8 +87,6 @@
         <li class="flex-item">3</li>
         <li class="flex-item">4</li>
         <li class="flex-item">5</li>
-
     </ul>
-    
 </body>
 </html>
